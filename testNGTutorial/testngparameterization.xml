@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="loan department" parallel="test" thread-count="2">
+ <!-- <parameter name="URL" value="www.qaclickacademy.com"/>
+ suite level parameterization -->
+  <test thread-count="5" name="personal loan">
+  <parameter name="URL" value="www.personalloan.com"/>
+  <parameter name="APIKey" value="12345"/>
+  <!-- test level pameterization -->
+    <classes>
+     <class name="test.day3"/>
+    </classes>
+    </test>
+    
+      
+  
+</suite> <!-- Suite -->

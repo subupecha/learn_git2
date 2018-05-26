@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="71" started-at="2018-04-25T12:10:17Z" finished-at="2018-04-25T12:10:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="71" started-at="2018-04-25T12:10:17Z" finished-at="2018-04-25T12:10:18Z">
+      <class name="test.dataProvider">
+        <test-method status="PASS" signature="enterUrl()[pri:0, instance:test.dataProvider@42d8062c]" name="enterUrl" duration-ms="13" started-at="2018-04-25T12:10:18Z" finished-at="2018-04-25T12:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method status="PASS" signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:test.dataProvider@42d8062c]" name="logIn" duration-ms="6" started-at="2018-04-25T12:10:18Z" data-provider="getData" finished-at="2018-04-25T12:10:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:test.dataProvider@42d8062c]" name="logIn" duration-ms="1" started-at="2018-04-25T12:10:18Z" data-provider="getData" finished-at="2018-04-25T12:10:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:test.dataProvider@42d8062c]" name="logIn" duration-ms="1" started-at="2018-04-25T12:10:18Z" data-provider="getData" finished-at="2018-04-25T12:10:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+      </class> <!-- test.dataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,3 @@
+13:29:44.047 [main] ERROR alpha.demo - object is not found
+13:29:44.120 [main] DEBUG alpha.demo - key sent successfully
+13:29:44.120 [main] INFO  alpha.demo - succcessfully loaded
